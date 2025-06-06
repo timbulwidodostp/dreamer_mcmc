@@ -3,6 +3,8 @@
 # IG : @olahdatasemarang_
 # Bayesian Model Averaging of Dose Response Models Use dreamer_mcmc (dreamer) With (In) R Software
 install.packages("dreamer")
+install.packages("knitr")
+library("knitr")
 library("dreamer")
 dreamer_mcmc = read.csv("https://raw.githubusercontent.com/timbulwidodostp/dreamer_mcmc/main/dreamer_mcmc/dreamer_mcmc.csv",sep = ";")
 # Estimation Bayesian Model Averaging of Dose Response Models Use dreamer_mcmc (dreamer) With (In) R Software
